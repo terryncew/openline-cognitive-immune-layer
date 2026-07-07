@@ -1,0 +1,40 @@
+[
+  {
+    "name": "U(2,3)",
+    "seed": [
+      2,
+      3
+    ],
+    "alpha": 1.165012873891295,
+    "verdict": "active_recursive_boundary_control_supported",
+    "receipt_memory_capture_mean": 0.14385574800134876,
+    "receipt_memory_capture_min": 0.1438325951416064,
+    "receipt_memory_false_block_mean": 0.0,
+    "receipt_memory_false_block_max": 0.0,
+    "receipt_memory_precision_mean": 1.0,
+    "receipt_memory_enrichment_mean": 1.1293484660320443,
+    "receipt_memory_utility_mean": 55608.42857142857,
+    "phase_random_baseline_precision_mean": 0.8831785916967594,
+    "phase_random_baseline_enrichment_mean": 0.997415937318747,
+    "phase_random_baseline_utility_mean": -11961.880000000001
+  },
+  {
+    "name": "U(3,4)",
+    "seed": [
+      3,
+      4
+    ],
+    "alpha": 2.209039570339974,
+    "verdict": "active_recursive_boundary_control_supported",
+    "receipt_memory_capture_mean": 0.1328347861967719,
+    "receipt_memory_capture_min": 0.13272119437189728,
+    "receipt_memory_false_block_mean": 0.0,
+    "receipt_memory_false_block_max": 0.0,
+    "receipt_memory_precision_mean": 1.0,
+    "receipt_memory_enrichment_mean": 1.151026329641483,
+    "receipt_memory_utility_mean": 43979.142857142855,
+    "phase_random_baseline_precision_mean": 0.8701367969232509,
+    "phase_random_baseline_enrichment_mean": 1.0015525897372624,
+    "phase_random_baseline_utility_mean": -16109.22
+  }
+]

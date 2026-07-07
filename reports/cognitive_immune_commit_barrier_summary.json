@@ -1,0 +1,164 @@
+[
+  {
+    "name": "U(2,3)",
+    "seed": [
+      2,
+      3
+    ],
+    "alpha": 1.165012873891295,
+    "optimal_state": "max_buffer_cognitive_immune_layer",
+    "state_summary": {
+      "rigid_filter": {
+        "safe_all_stress": false,
+        "mean_buffer_rejected_capture": 0.13156404435842223,
+        "mean_buffer_accepted_exposure": 0.098145,
+        "mean_commit_utility": 1743.4642857142856,
+        "mean_commit_capture": 0.13156404435842223,
+        "max_commit_false_block": 0.13093714285714284,
+        "min_commit_precision": 0.8540561433498576,
+        "immune_index": -1.028808696997441,
+        "buffer_frac": 0.05,
+        "commit_frac": 0.05,
+        "commit_quorum": 1
+      },
+      "baseline_memory_controller": {
+        "safe_all_stress": false,
+        "mean_buffer_rejected_capture": 0.25769453542502396,
+        "mean_buffer_accepted_exposure": 0.18398571428571428,
+        "mean_commit_utility": 7534.750000000002,
+        "mean_commit_capture": 0.25769453542502396,
+        "max_commit_false_block": 0.24532571428571429,
+        "min_commit_precision": 0.8691392698058648,
+        "immune_index": -1.862520572007095,
+        "buffer_frac": 0.1,
+        "commit_frac": 0.1,
+        "commit_quorum": 1
+      },
+      "porous_direct": {
+        "safe_all_stress": false,
+        "mean_buffer_rejected_capture": 0.6866235434336759,
+        "mean_buffer_accepted_exposure": 0.4556807142857142,
+        "mean_commit_utility": 37448.85714285714,
+        "mean_commit_capture": 0.6866235434336759,
+        "max_commit_false_block": 0.6049199999999999,
+        "min_commit_precision": 0.9053353597166628,
+        "immune_index": -4.301464341704076,
+        "buffer_frac": 0.3,
+        "commit_frac": 0.3,
+        "commit_quorum": 1
+      },
+      "cognitive_immune_layer": {
+        "safe_all_stress": true,
+        "mean_buffer_rejected_capture": 0.6866235434336759,
+        "mean_buffer_accepted_exposure": 0.4556807142857142,
+        "mean_commit_utility": 22957.142857142855,
+        "mean_commit_capture": 0.059369408637434395,
+        "max_commit_false_block": 0.0,
+        "min_commit_precision": 1.0,
+        "immune_index": 0.9755643806425389,
+        "buffer_frac": 0.3,
+        "commit_frac": 0.15,
+        "commit_quorum": 3
+      },
+      "max_buffer_cognitive_immune_layer": {
+        "safe_all_stress": true,
+        "mean_buffer_rejected_capture": 0.9168156311824054,
+        "mean_buffer_accepted_exposure": 0.5870428571428572,
+        "mean_commit_utility": 22957.142857142855,
+        "mean_commit_capture": 0.059369408637434395,
+        "max_commit_false_block": 0.0,
+        "min_commit_precision": 1.0,
+        "immune_index": 1.2057564683912683,
+        "buffer_frac": 0.5,
+        "commit_frac": 0.15,
+        "commit_quorum": 3
+      }
+    },
+    "failure_rule": "commit fails if precision < 0.99 OR false_block > 0.001 OR utility <= 0",
+    "stress_model": {
+      "corrupted_bin_fraction": 0.015,
+      "abs_delta_alpha": 6e-07
+    }
+  },
+  {
+    "name": "U(3,4)",
+    "seed": [
+      3,
+      4
+    ],
+    "alpha": 2.209039570339974,
+    "optimal_state": "max_buffer_cognitive_immune_layer",
+    "state_summary": {
+      "rigid_filter": {
+        "safe_all_stress": false,
+        "mean_buffer_rejected_capture": 0.13069798807815927,
+        "mean_buffer_accepted_exposure": 0.09738142857142858,
+        "mean_commit_utility": -5461.535714285714,
+        "mean_commit_capture": 0.13069798807815927,
+        "max_commit_false_block": 0.12970857142857145,
+        "min_commit_precision": 0.8602318192819416,
+        "immune_index": -1.0903050952722533,
+        "buffer_frac": 0.05,
+        "commit_frac": 0.05,
+        "commit_quorum": 1
+      },
+      "baseline_memory_controller": {
+        "safe_all_stress": false,
+        "mean_buffer_rejected_capture": 0.2485263062302122,
+        "mean_buffer_accepted_exposure": 0.19046928571428573,
+        "mean_commit_utility": -13049.428571428572,
+        "mean_commit_capture": 0.2485263062302122,
+        "max_commit_false_block": 0.2539828571428572,
+        "min_commit_precision": 0.8593480651349505,
+        "immune_index": -2.1732702446824335,
+        "buffer_frac": 0.1,
+        "commit_frac": 0.1,
+        "commit_quorum": 1
+      },
+      "porous_direct": {
+        "safe_all_stress": false,
+        "mean_buffer_rejected_capture": 0.6487699858567492,
+        "mean_buffer_accepted_exposure": 0.3972392857142857,
+        "mean_commit_utility": 16068.500000000002,
+        "mean_commit_capture": 0.6487699858567492,
+        "max_commit_false_block": 0.5272371428571428,
+        "min_commit_precision": 0.9041765052874868,
+        "immune_index": -3.81414645685793,
+        "buffer_frac": 0.3,
+        "commit_frac": 0.3,
+        "commit_quorum": 1
+      },
+      "cognitive_immune_layer": {
+        "safe_all_stress": true,
+        "mean_buffer_rejected_capture": 0.6487699858567492,
+        "mean_buffer_accepted_exposure": 0.3972392857142857,
+        "mean_commit_utility": 27009.89285714286,
+        "mean_commit_capture": 0.08157337545188093,
+        "max_commit_false_block": 0.0,
+        "min_commit_precision": 1.0,
+        "immune_index": 1.0004422898800587,
+        "buffer_frac": 0.3,
+        "commit_frac": 0.2,
+        "commit_quorum": 3
+      },
+      "max_buffer_cognitive_immune_layer": {
+        "safe_all_stress": true,
+        "mean_buffer_rejected_capture": 0.8862293282144871,
+        "mean_buffer_accepted_exposure": 0.5257714285714286,
+        "mean_commit_utility": 27009.89285714286,
+        "mean_commit_capture": 0.08157337545188093,
+        "max_commit_false_block": 0.0,
+        "min_commit_precision": 1.0,
+        "immune_index": 1.2379016322377967,
+        "buffer_frac": 0.5,
+        "commit_frac": 0.2,
+        "commit_quorum": 3
+      }
+    },
+    "failure_rule": "commit fails if precision < 0.99 OR false_block > 0.001 OR utility <= 0",
+    "stress_model": {
+      "corrupted_bin_fraction": 0.015,
+      "abs_delta_alpha": 6e-07
+    }
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "U(2,3)",
+    "seed": [
+      2,
+      3
+    ],
+    "alpha": 1.165012873891295,
+    "optimal_state": "quorum3",
+    "first_failures": {
+      "open_corruption": 0.03,
+      "quorum3_corruption": null,
+      "clock_consensus_corruption": null,
+      "quarantine_corruption": null,
+      "guarded_plastic_corruption": null,
+      "open_detuned": 4e-07,
+      "clock_consensus_detuned": 4e-07,
+      "guarded_plastic_detuned": null
+    },
+    "state_scores": {
+      "open": {
+        "safe_all_tested": false,
+        "utility_mean_across_stress": 54805.02040816326,
+        "capture_mean_across_stress": 0.14328431407355222,
+        "false_block_max_across_stress": 0.004205714285714286
+      },
+      "quorum3": {
+        "safe_all_tested": true,
+        "utility_mean_across_stress": 55608.42857142857,
+        "capture_mean_across_stress": 0.14385574800134873,
+        "false_block_max_across_stress": 0.0
+      },
+      "clock_consensus": {
+        "safe_all_tested": false,
+        "utility_mean_across_stress": 3764.234693877551,
+        "capture_mean_across_stress": 0.016471915931407084,
+        "false_block_max_across_stress": 0.04105428571428572
+      },
+      "quarantine": {
+        "safe_all_tested": true,
+        "utility_mean_across_stress": 55446.24489795918,
+        "capture_mean_across_stress": 0.1437332533654419,
+        "false_block_max_across_stress": 0.0008342857142857143
+      },
+      "guarded_plastic": {
+        "safe_all_tested": true,
+        "utility_mean_across_stress": 44608.887755102034,
+        "capture_mean_across_stress": 0.11541359631251245,
+        "false_block_max_across_stress": 0.0
+      }
+    },
+    "failure_rule": "precision < 0.99 OR false_block > 0.001 OR utility <= 0"
+  },
+  {
+    "name": "U(3,4)",
+    "seed": [
+      3,
+      4
+    ],
+    "alpha": 2.209039570339974,
+    "optimal_state": "quorum3",
+    "first_failures": {
+      "open_corruption": 0.01,
+      "quorum3_corruption": null,
+      "clock_consensus_corruption": null,
+      "quarantine_corruption": null,
+      "guarded_plastic_corruption": null,
+      "open_detuned": 4e-07,
+      "clock_consensus_detuned": 6e-07,
+      "guarded_plastic_detuned": null
+    },
+    "state_scores": {
+      "open": {
+        "safe_all_tested": false,
+        "utility_mean_across_stress": 43159.57142857143,
+        "capture_mean_across_stress": 0.13235800944021608,
+        "false_block_max_across_stress": 0.004537142857142857
+      },
+      "quorum3": {
+        "safe_all_tested": true,
+        "utility_mean_across_stress": 43979.14285714285,
+        "capture_mean_across_stress": 0.1328347861967719,
+        "false_block_max_across_stress": 0.0
+      },
+      "clock_consensus": {
+        "safe_all_tested": false,
+        "utility_mean_across_stress": 2740.2959183673474,
+        "capture_mean_across_stress": 0.018774939368429194,
+        "false_block_max_across_stress": 0.046265714285714285
+      },
+      "quarantine": {
+        "safe_all_tested": true,
+        "utility_mean_across_stress": 43908.81632653061,
+        "capture_mean_across_stress": 0.13279593045372678,
+        "false_block_max_across_stress": 0.0008057142857142857
+      },
+      "guarded_plastic": {
+        "safe_all_tested": true,
+        "utility_mean_across_stress": 36365.173469387744,
+        "capture_mean_across_stress": 0.10986299874045642,
+        "false_block_max_across_stress": 0.0
+      }
+    },
+    "failure_rule": "precision < 0.99 OR false_block > 0.001 OR utility <= 0"
+  }
+]

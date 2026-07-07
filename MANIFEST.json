@@ -1,0 +1,122 @@
+{
+  "repo": "openline-cognitive-immune-layer",
+  "created_at_unix": 1783453542,
+  "claim": "A cognitive immune layer separates wide intake from strict protected commit.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "e1cddd035966dc4530d4787358ac3f3a2da159d358338fdee5220ff84b39049b",
+      "bytes": 34
+    },
+    {
+      "path": "CLAIM_BOUNDARY.md",
+      "sha256": "b1132ba3872137abbe274767a659c15caf1ad237dcc4094cd89bc394fe40f98b",
+      "bytes": 1197
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "83f1cec7cc6701c9a8004184b541dd1297a5c0aa618d22cfc9036686b4274cfb",
+      "bytes": 985
+    },
+    {
+      "path": "README.md",
+      "sha256": "46b6d913f58d51948f70a800565de895314557aad0c963b25742171f77d053df",
+      "bytes": 3638
+    },
+    {
+      "path": "docs/ACTIVE_BOUNDARY_DEFENSE_OPTIMIZER.md",
+      "sha256": "350064fe6132605c30e5fe3b736825b0a117db68390bc8c0d816d3dffb4fa73f",
+      "bytes": 1196
+    },
+    {
+      "path": "docs/ACTIVE_RECURSIVE_BOUNDARY_CONTROLLER_TEST.md",
+      "sha256": "55cf80624106f3b0d9bc8e4dd29623c010d8ba4b7a4d5ef7a0a9620a1635df86",
+      "bytes": 1877
+    },
+    {
+      "path": "docs/COGNITIVE_IMMUNE_COMMIT_BARRIER_TEST.md",
+      "sha256": "f00b319d14ea3007120294cd9384ede11dc908463c24aa0876838c5b9fde5e79",
+      "bytes": 2804
+    },
+    {
+      "path": "docs/ELASTIC_PERMEABILITY_OPTIMIZER.md",
+      "sha256": "5107e50938e3ca5136c34cc536dd2957193309ba52f3e949dc8db740f1af5d85",
+      "bytes": 1435
+    },
+    {
+      "path": "launch/threads_launch_copy.md",
+      "sha256": "722cfb653cc5c974e0b3672a01f56cac4f4bdd8c5ca6b1302cb45910d21ff7ce",
+      "bytes": 1265
+    },
+    {
+      "path": "receipts/active_boundary_defense_receipts.jsonl",
+      "sha256": "ad06057ec03658725478195e5f1e3d51826cbba36ba641305bef252fc7ba2fdc",
+      "bytes": 2666
+    },
+    {
+      "path": "receipts/active_recursive_boundary_controller_receipts.jsonl",
+      "sha256": "dbbd7079bb4438416af5e26e5f11ab3e017a760dee96594879b21c88d1ccece8",
+      "bytes": 3239
+    },
+    {
+      "path": "receipts/cognitive_immune_commit_barrier_receipts.jsonl",
+      "sha256": "85a3b0f48aa8f75cc8f35a3de241189b41387dc1cceaeb67a2fc7b900825441f",
+      "bytes": 27190
+    },
+    {
+      "path": "receipts/elastic_permeability_receipts.jsonl",
+      "sha256": "48dc10bdbe6c2e5f94dc555db958267a9303c1f851a4a302bd7bdfa683667ebc",
+      "bytes": 2677
+    },
+    {
+      "path": "reports/active_boundary_defense_report.json",
+      "sha256": "f214fda95671656013984e1065736a20600ca614c108bb51d88abda8f508c568",
+      "bytes": 134313
+    },
+    {
+      "path": "reports/active_boundary_defense_summary.json",
+      "sha256": "3260a1b4c6010ad9f9da045adb3fd70418f2842bf8457ca6fbd716b00ace43b0",
+      "bytes": 3490
+    },
+    {
+      "path": "reports/active_recursive_boundary_controller_report.json",
+      "sha256": "fd75cedcbd282c1651df16a2a99415d177de28a98bf20b77348ac8c28ffaa5fd",
+      "bytes": 32572
+    },
+    {
+      "path": "reports/active_recursive_boundary_controller_summary.json",
+      "sha256": "33f9bb20253ee1cce7a9bc9e14d48e008555aebd7f8f3c8daf9176e16531e519",
+      "bytes": 1401
+    },
+    {
+      "path": "reports/cognitive_immune_commit_barrier_report.json",
+      "sha256": "6a549c3cfb848bc69d66ff62b2833eb6d7845af25f4b62822789a6a9835c0a90",
+      "bytes": 95424
+    },
+    {
+      "path": "reports/cognitive_immune_commit_barrier_summary.json",
+      "sha256": "c5d442dc181a334193ae38f75cad81bd079f9cf5a5ebef1126a78a4883ede2b9",
+      "bytes": 5974
+    },
+    {
+      "path": "reports/elastic_permeability_report.json",
+      "sha256": "7d118e0fe0b19dac9586f04fc53148dfae209cbbba2c3c10ca1b4dcdc746bea0",
+      "bytes": 259002
+    },
+    {
+      "path": "reports/elastic_permeability_summary.json",
+      "sha256": "806c68291449ddc823fbe684ae4ba63ddb1418b51fcde538262693841179024e",
+      "bytes": 1668
+    },
+    {
+      "path": "tests/active_recursive_boundary_controller_test.py",
+      "sha256": "ac269328b93b60b158c4e213f43dc8040c1a46dbf700403eae73920ec57de585",
+      "bytes": 22757
+    },
+    {
+      "path": "tests/cognitive_immune_commit_barrier_test_NOTE.md",
+      "sha256": "69573a8cd1e45f1271e27bd55b109865b8ce453313befff052531f85cdfb4b01",
+      "bytes": 436
+    }
+  ]
+}

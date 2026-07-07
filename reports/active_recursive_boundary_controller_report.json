@@ -1,0 +1,808 @@
+{
+  "verdict": "active_recursive_boundary_controller_test_completed",
+  "boundary": "Toy-system active-controller audit only. Does not prove consciousness.",
+  "results": [
+    {
+      "name": "U(2,3)",
+      "seed": [
+        2,
+        3
+      ],
+      "alpha": 1.165012873891295,
+      "status": "analyzed",
+      "window_terms": 50000,
+      "transition_count": 7,
+      "values_sha256": "df4240b637f6a5b745d9a2f95f0125dcc2dae84face7224e60c337938c39f4ac",
+      "representation_depth_sha256": "8da19a50aba70a1b48f7f37b563698dbc43c12d5dc2a246c80a78b2a3d462ea6",
+      "receipt_memory_capture_mean": 0.14385574800134876,
+      "receipt_memory_capture_min": 0.1438325951416064,
+      "receipt_memory_false_block_mean": 0.0,
+      "receipt_memory_false_block_max": 0.0,
+      "receipt_memory_precision_mean": 1.0,
+      "receipt_memory_enrichment_mean": 1.1293484660320443,
+      "receipt_memory_utility_mean": 55608.42857142857,
+      "random_baseline_precision_mean": 0.8854154307130641,
+      "phase_random_baseline_precision_mean": 0.8831785916967594,
+      "random_baseline_enrichment_mean": 0.9999423727685713,
+      "phase_random_baseline_enrichment_mean": 0.997415937318747,
+      "random_baseline_utility_mean": -11368.968571428572,
+      "phase_random_baseline_utility_mean": -11961.880000000001,
+      "rows": [
+        {
+          "source_terms": [
+            1,
+            50000
+          ],
+          "target_terms": [
+            50001,
+            100000
+          ],
+          "source_value_hi": 556504,
+          "target_value_hi": 1114093,
+          "receipt_memory": {
+            "candidate_count": 557589,
+            "reachable_count": 437659,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 387659,
+            "routed_count": 55758,
+            "routed_reachable_count": 55758,
+            "captured_rejected_count": 55758,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.1438325951416064,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8857558053187528,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1289793349309574,
+            "utility": 55758
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09995145217833197,
+            "accepted_false_block_rate": 0.1002564,
+            "precision_rejected_given_routed_reachable": 0.885446481248792,
+            "enrichment_over_base": 0.9996507795172177,
+            "utility": -11381.12
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8884885524035392,
+            "enrichment_over_base": 1.0030852149863168,
+            "utility": -9938.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.09991642139096474,
+            "accepted_false_block_rate": 0.101628,
+            "precision_rejected_given_routed_reachable": 0.8831845394312835,
+            "enrichment_over_base": 0.9970970939484343,
+            "utility": -12080.5
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9259392910210147,
+            "enrichment_over_base": 1.0453663249633474,
+            "utility": 8731.0
+          }
+        },
+        {
+          "source_terms": [
+            50001,
+            100000
+          ],
+          "target_terms": [
+            100001,
+            150000
+          ],
+          "source_value_hi": 1114093,
+          "target_value_hi": 1668626,
+          "receipt_memory": {
+            "candidate_count": 554533,
+            "reachable_count": 435458,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 385458,
+            "routed_count": 55454,
+            "routed_reachable_count": 55454,
+            "captured_rejected_count": 55454,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.1438652200758578,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8851783639294719,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1297158185846448,
+            "utility": 55454
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09993768452075193,
+            "accepted_false_block_rate": 0.09978159999999997,
+            "precision_rejected_given_routed_reachable": 0.8853379155952779,
+            "enrichment_over_base": 1.0001802480407422,
+            "utility": -11369.02
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8893805309734514,
+            "enrichment_over_base": 1.0047472545819187,
+            "utility": -9359.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.10036777028885117,
+            "accepted_false_block_rate": 0.09965520000000001,
+            "precision_rejected_given_routed_reachable": 0.8851235368712191,
+            "enrichment_over_base": 0.9999380610050053,
+            "utility": -11140.04
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9272140398879887,
+            "enrichment_over_base": 1.0474883680752347,
+            "utility": 9326.0
+          }
+        },
+        {
+          "source_terms": [
+            100001,
+            150000
+          ],
+          "target_terms": [
+            150001,
+            200000
+          ],
+          "source_value_hi": 1668626,
+          "target_value_hi": 2220957,
+          "receipt_memory": {
+            "candidate_count": 552331,
+            "reachable_count": 433966,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 383966,
+            "routed_count": 55230,
+            "routed_reachable_count": 55230,
+            "captured_rejected_count": 55230,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.1438408609095597,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8847836005585691,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1302198632170557,
+            "utility": 55230
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09996421558158795,
+            "accepted_false_block_rate": 0.10040520000000001,
+            "precision_rejected_given_routed_reachable": 0.884334508459198,
+            "enrichment_over_base": 0.9994924271888772,
+            "utility": -11819.74
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8886234148134534,
+            "enrichment_over_base": 1.0043398343419343,
+            "utility": -9800.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.0994774537328826,
+            "accepted_false_block_rate": 0.10292839999999998,
+            "precision_rejected_given_routed_reachable": 0.8800805358521648,
+            "enrichment_over_base": 0.9946845028508268,
+            "utility": -13268.24
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9245753726533752,
+            "enrichment_over_base": 1.044973451214156,
+            "utility": 8193.0
+          }
+        },
+        {
+          "source_terms": [
+            150001,
+            200000
+          ],
+          "target_terms": [
+            200001,
+            250000
+          ],
+          "source_value_hi": 2220957,
+          "target_value_hi": 2778234,
+          "receipt_memory": {
+            "candidate_count": 557277,
+            "reachable_count": 437319,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 387319,
+            "routed_count": 55726,
+            "routed_reachable_count": 55726,
+            "captured_rejected_count": 55726,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.14387623638396257,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8856669845124497,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.129092556781361,
+            "utility": 55726
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.10009578667713176,
+            "accepted_false_block_rate": 0.100242,
+            "precision_rejected_given_routed_reachable": 0.885518473925884,
+            "enrichment_over_base": 0.9998323178021051,
+            "utility": -11352.0
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8881955160206952,
+            "enrichment_over_base": 1.0028549461055472,
+            "utility": -10129.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.09904843294545324,
+            "accepted_false_block_rate": 0.10084920000000003,
+            "precision_rejected_given_routed_reachable": 0.8829493952053318,
+            "enrichment_over_base": 0.9969315901409443,
+            "utility": -12061.26
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9221570147270512,
+            "enrichment_over_base": 1.0412006215120335,
+            "utility": 6490.0
+          }
+        },
+        {
+          "source_terms": [
+            200001,
+            250000
+          ],
+          "target_terms": [
+            250001,
+            300000
+          ],
+          "source_value_hi": 2778234,
+          "target_value_hi": 3335571,
+          "receipt_memory": {
+            "candidate_count": 557337,
+            "reachable_count": 437409,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 387409,
+            "routed_count": 55734,
+            "routed_reachable_count": 55734,
+            "captured_rejected_count": 55734,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.14386346212917098,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8856905093402285,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1290625669512067,
+            "utility": 55734
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09995864835354883,
+            "accepted_false_block_rate": 0.09985240000000001,
+            "precision_rejected_given_routed_reachable": 0.8857995529737588,
+            "enrichment_over_base": 1.000123117084783,
+            "utility": -11201.32
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8890933768892774,
+            "enrichment_over_base": 1.0038420503699241,
+            "utility": -9562.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.10122640413619716,
+            "accepted_false_block_rate": 0.09819800000000001,
+            "precision_rejected_given_routed_reachable": 0.8878882480729507,
+            "enrichment_over_base": 1.0024813845350553,
+            "utility": -9882.98
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9412032096130282,
+            "enrichment_over_base": 1.0626773118684,
+            "utility": 17873.0
+          }
+        },
+        {
+          "source_terms": [
+            250001,
+            300000
+          ],
+          "target_terms": [
+            300001,
+            350000
+          ],
+          "source_value_hi": 3335571,
+          "target_value_hi": 3892871,
+          "receipt_memory": {
+            "candidate_count": 557300,
+            "reachable_count": 437409,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 387409,
+            "routed_count": 55728,
+            "routed_reachable_count": 55728,
+            "captured_rejected_count": 55728,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.14384797462113683,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8856905093402285,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1290625669512067,
+            "utility": 55728
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.10009106654724079,
+            "accepted_false_block_rate": 0.09973479999999998,
+            "precision_rejected_given_routed_reachable": 0.8860510616285171,
+            "enrichment_over_base": 1.0004070860921352,
+            "utility": -11091.22
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8888031063375644,
+            "enrichment_over_base": 1.0035143167556968,
+            "utility": -9794.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.09946299647142942,
+            "accepted_false_block_rate": 0.1008164,
+            "precision_rejected_given_routed_reachable": 0.883250898042467,
+            "enrichment_over_base": 0.9972455262057862,
+            "utility": -11875.34
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9462644024248263,
+            "enrichment_over_base": 1.068391715216324,
+            "utility": 20371.0
+          }
+        },
+        {
+          "source_terms": [
+            300001,
+            350000
+          ],
+          "target_terms": [
+            350001,
+            400000
+          ],
+          "source_value_hi": 3892871,
+          "target_value_hi": 4449166,
+          "receipt_memory": {
+            "candidate_count": 556295,
+            "reachable_count": 436678,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 386678,
+            "routed_count": 55629,
+            "routed_reachable_count": 55629,
+            "captured_rejected_count": 55629,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.14386388674814704,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8854991549837637,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1293065548078765,
+            "utility": 55629
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09997786271781689,
+            "accepted_false_block_rate": 0.10005520000000001,
+            "precision_rejected_given_routed_reachable": 0.8854200211600198,
+            "enrichment_over_base": 0.9999106336541389,
+            "utility": -11368.36
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8893490181801633,
+            "enrichment_over_base": 1.0043476757428076,
+            "utility": -9544.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.09868003868852121,
+            "accepted_false_block_rate": 0.1031644,
+            "precision_rejected_given_routed_reachable": 0.8797729884018982,
+            "enrichment_over_base": 0.9935334025451774,
+            "utility": -13424.8
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9417050739735253,
+            "enrichment_over_base": 1.0634737127341383,
+            "utility": 17047.0
+          }
+        }
+      ],
+      "verdict": "active_recursive_boundary_control_supported"
+    },
+    {
+      "name": "U(3,4)",
+      "seed": [
+        3,
+        4
+      ],
+      "alpha": 2.209039570339974,
+      "status": "analyzed",
+      "window_terms": 50000,
+      "transition_count": 7,
+      "values_sha256": "301c2b2dfbc23a22526d64f7797f84e97d446cdb77863ceea9e8f41b6cb46892",
+      "representation_depth_sha256": "f83f521549937f07c967ba153f31468eeb13cc3e0370ee02f034ebc109299925",
+      "receipt_memory_capture_mean": 0.1328347861967719,
+      "receipt_memory_capture_min": 0.13272119437189728,
+      "receipt_memory_false_block_mean": 0.0,
+      "receipt_memory_false_block_max": 0.0,
+      "receipt_memory_precision_mean": 1.0,
+      "receipt_memory_enrichment_mean": 1.151026329641483,
+      "receipt_memory_utility_mean": 43979.142857142855,
+      "random_baseline_precision_mean": 0.8688251340857691,
+      "phase_random_baseline_precision_mean": 0.8701367969232509,
+      "random_baseline_enrichment_mean": 1.0000399235807138,
+      "phase_random_baseline_enrichment_mean": 1.0015525897372624,
+      "random_baseline_utility_mean": -16882.72857142857,
+      "phase_random_baseline_utility_mean": -16109.22,
+      "rows": [
+        {
+          "source_terms": [
+            1,
+            50000
+          ],
+          "target_terms": [
+            50001,
+            100000
+          ],
+          "source_value_hi": 432319,
+          "target_value_hi": 872359,
+          "receipt_memory": {
+            "candidate_count": 440040,
+            "reachable_count": 381255,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 331255,
+            "routed_count": 44002,
+            "routed_reachable_count": 44002,
+            "captured_rejected_count": 44002,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13283422137024348,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8688541789615873,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.150941117869919,
+            "utility": 44002
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09999758494211408,
+            "accepted_false_block_rate": 0.09992039999999999,
+            "precision_rejected_given_routed_reachable": 0.8689415411762376,
+            "enrichment_over_base": 1.0001005487649892,
+            "utility": -16835.5
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8715742677824267,
+            "enrichment_over_base": 1.0031306620681624,
+            "utility": -15656.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.1008241988800169,
+            "accepted_false_block_rate": 0.09916279999999998,
+            "precision_rejected_given_routed_reachable": 0.8702327127099414,
+            "enrichment_over_base": 1.0015866111733522,
+            "utility": -16182.88
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9212608188874836,
+            "enrichment_over_base": 1.0603169567401174,
+            "utility": 5398.0
+          }
+        },
+        {
+          "source_terms": [
+            50001,
+            100000
+          ],
+          "target_terms": [
+            100001,
+            150000
+          ],
+          "source_value_hi": 872359,
+          "target_value_hi": 1307890,
+          "receipt_memory": {
+            "candidate_count": 435531,
+            "reachable_count": 378139,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 328139,
+            "routed_count": 43551,
+            "routed_reachable_count": 43551,
+            "captured_rejected_count": 43551,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13272119437189728,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8677734907005096,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.15237445107104,
+            "utility": 43551
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09999847625548929,
+            "accepted_false_block_rate": 0.1002608,
+            "precision_rejected_given_routed_reachable": 0.8674711965869932,
+            "enrichment_over_base": 0.9996516439868744,
+            "utility": -17317.0
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8727196256768834,
+            "enrichment_over_base": 1.0056997995783221,
+            "utility": -15220.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.10213689930182028,
+            "accepted_false_block_rate": 0.09357240000000001,
+            "precision_rejected_given_routed_reachable": 0.876727925175469,
+            "enrichment_over_base": 1.0103188615127332,
+            "utility": -13271.1
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9262596177711591,
+            "enrichment_over_base": 1.067397918578311,
+            "utility": 7609.0
+          }
+        },
+        {
+          "source_terms": [
+            100001,
+            150000
+          ],
+          "target_terms": [
+            150001,
+            200000
+          ],
+          "source_value_hi": 1307890,
+          "target_value_hi": 1747193,
+          "receipt_memory": {
+            "candidate_count": 439303,
+            "reachable_count": 380745,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 330745,
+            "routed_count": 43929,
+            "routed_reachable_count": 43929,
+            "captured_rejected_count": 43929,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13281833436635473,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8686785118648964,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.151173865062208,
+            "utility": 43929
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09996160183827422,
+            "accepted_false_block_rate": 0.09984239999999998,
+            "precision_rejected_given_routed_reachable": 0.868814437860459,
+            "enrichment_over_base": 1.0001564744536742,
+            "utility": -16859.4
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8721717371263006,
+            "enrichment_over_base": 1.0040213096257036,
+            "utility": -15418.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.10060989584120696,
+            "accepted_false_block_rate": 0.09836879999999999,
+            "precision_rejected_given_routed_reachable": 0.8705778352254441,
+            "enrichment_over_base": 1.0021864514139647,
+            "utility": -15908.18
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9245218159943035,
+            "enrichment_over_base": 1.064285352252494,
+            "utility": 6913.0
+          }
+        },
+        {
+          "source_terms": [
+            150001,
+            200000
+          ],
+          "target_terms": [
+            200001,
+            250000
+          ],
+          "source_value_hi": 1747193,
+          "target_value_hi": 2187219,
+          "receipt_memory": {
+            "candidate_count": 440026,
+            "reachable_count": 381260,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 331260,
+            "routed_count": 44004,
+            "routed_reachable_count": 44004,
+            "captured_rejected_count": 44004,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13283825393950371,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8688558988616693,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1509388395822013,
+            "utility": 44004
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.10005922840065205,
+            "accepted_false_block_rate": 0.1000076,
+            "precision_rejected_given_routed_reachable": 0.8689148268095892,
+            "enrichment_over_base": 1.000067822463998,
+            "utility": -16858.18
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8720948369989081,
+            "enrichment_over_base": 1.0037278197011523,
+            "utility": -15628.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.10072112539998791,
+            "accepted_false_block_rate": 0.0980956,
+            "precision_rejected_given_routed_reachable": 0.8713219151850369,
+            "enrichment_over_base": 1.0028382339656075,
+            "utility": -15682.92
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9397654843575147,
+            "enrichment_over_base": 1.0816125960458434,
+            "utility": 13870.0
+          }
+        },
+        {
+          "source_terms": [
+            200001,
+            250000
+          ],
+          "target_terms": [
+            250001,
+            300000
+          ],
+          "source_value_hi": 2187219,
+          "target_value_hi": 2623857,
+          "receipt_memory": {
+            "candidate_count": 436638,
+            "reachable_count": 378766,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 328766,
+            "routed_count": 43663,
+            "routed_reachable_count": 43663,
+            "captured_rejected_count": 43663,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13280874542988022,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8679923752395938,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1520838529531643,
+            "utility": 43663
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.10018475146456751,
+            "accepted_false_block_rate": 0.09997679999999999,
+            "precision_rejected_given_routed_reachable": 0.8682298293388188,
+            "enrichment_over_base": 1.0002735670335345,
+            "utility": -17051.06
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.872418046770426,
+            "enrichment_over_base": 1.0050987447091462,
+            "utility": -15370.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.10012343125505678,
+            "accepted_false_block_rate": 0.09912920000000001,
+            "precision_rejected_given_routed_reachable": 0.8686027308482543,
+            "enrichment_over_base": 1.0007031808412972,
+            "utility": -16647.42
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9253182532839681,
+            "enrichment_over_base": 1.066044218451286,
+            "utility": 7039.0
+          }
+        },
+        {
+          "source_terms": [
+            250001,
+            300000
+          ],
+          "target_terms": [
+            300001,
+            350000
+          ],
+          "source_value_hi": 2623857,
+          "target_value_hi": 3068348,
+          "receipt_memory": {
+            "candidate_count": 444491,
+            "reachable_count": 384522,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 334522,
+            "routed_count": 44451,
+            "routed_reachable_count": 44451,
+            "captured_rejected_count": 44451,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13287915294061378,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8699684283343996,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.149467000675591,
+            "utility": 44451
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.10007515200793968,
+            "accepted_false_block_rate": 0.1000596,
+            "precision_rejected_given_routed_reachable": 0.8699859833378304,
+            "enrichment_over_base": 1.0000201788971408,
+            "utility": -16552.46
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8741787464803421,
+            "enrichment_over_base": 1.0048396217711066,
+            "utility": -14730.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.09909632251391538,
+            "accepted_false_block_rate": 0.1017572,
+            "precision_rejected_given_routed_reachable": 0.8663444966485759,
+            "enrichment_over_base": 0.995834410114443,
+            "utility": -17728.7
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9335188168106604,
+            "enrichment_over_base": 1.0730490744335761,
+            "utility": 11010.0
+          }
+        },
+        {
+          "source_terms": [
+            300001,
+            350000
+          ],
+          "target_terms": [
+            350001,
+            400000
+          ],
+          "source_value_hi": 3068348,
+          "target_value_hi": 3510905,
+          "receipt_memory": {
+            "candidate_count": 442557,
+            "reachable_count": 382878,
+            "accepted_count": 50000,
+            "rejected_reachable_count": 332878,
+            "routed_count": 44254,
+            "routed_reachable_count": 44254,
+            "captured_rejected_count": 44254,
+            "false_blocked_accepted_count": 0,
+            "unsafe_rejection_capture_rate": 0.13294360095890986,
+            "accepted_false_block_rate": 0.0,
+            "precision_rejected_given_routed_reachable": 1.0,
+            "base_rejection_rate_reachable": 0.8694100993005605,
+            "routed_rejection_rate_reachable": 1.0,
+            "enrichment_over_base": 1.1502051802762574,
+            "utility": 44254
+          },
+          "no_memory_random_mean": {
+            "unsafe_rejection_capture_rate": 0.09998047332656408,
+            "accepted_false_block_rate": 0.09997360000000002,
+            "precision_rejected_given_routed_reachable": 0.8694181234904553,
+            "enrichment_over_base": 1.0000092294647849,
+            "utility": -16705.5
+          },
+          "no_memory_random_max": {
+            "precision_rejected_given_routed_reachable": 0.8723843900397573,
+            "enrichment_over_base": 1.003421044615872,
+            "utility": -15437.0
+          },
+          "no_memory_random_phase_bins_mean": {
+            "unsafe_rejection_capture_rate": 0.09957179507206844,
+            "accepted_false_block_rate": 0.1009772,
+            "precision_rejected_given_routed_reachable": 0.8671499626700352,
+            "enrichment_over_base": 0.9974003791394377,
+            "utility": -17343.34
+          },
+          "no_memory_random_phase_bins_max": {
+            "precision_rejected_given_routed_reachable": 0.9215926944226237,
+            "enrichment_over_base": 1.0600206912296557,
+            "utility": 5602.0
+          }
+        }
+      ],
+      "verdict": "active_recursive_boundary_control_supported"
+    }
+  ],
+  "created_at_unix": 1783445974,
+  "receipt_chain_valid": true
+}
